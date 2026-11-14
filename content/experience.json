@@ -1,0 +1,25 @@
+{
+  "entries": [
+    {
+      "company": "Wilmar Consultancy Services",
+      "jobTitle": "Business Analyst",
+      "period": "Jan 2022 \u2013 Present",
+      "location": "Medan, North Sumatera",
+      "responsibilities": [
+        "Gather and analyze requirements from warehouse, logistics, and operational stakeholders.",
+        "Translate requirements into specifications, AS-IS and TO-BE flows, business rules, mappings, mockups, acceptance criteria, and test scenarios.",
+        "Support implementation, SIT, UAT, defect verification, deployment, and stabilization.",
+        "Use SQL, API payloads, logs, and transaction timing to investigate system and integration incidents."
+      ]
+    },
+    {
+      "company": "North Sumatra Governor's Office Internship Program",
+      "jobTitle": "Archive Administration Intern",
+      "period": "Feb 2021 \u2013 Apr 2021",
+      "location": "Medan, North Sumatera",
+      "responsibilities": [
+        "Maintained administrative records through SISUMAKER and supported incoming-mail processing, document numbering, and distribution."
+      ]
+    }
+  ]
+}

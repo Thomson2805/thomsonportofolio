@@ -1,0 +1,85 @@
+backend:
+  name: github
+  repo: Thomson2805/thomsonportofolio
+  branch: main
+  base_url: https://REPLACE-WITH-YOUR-OAUTH-SERVICE.vercel.app
+  auth_endpoint: auth
+
+publish_mode: simple
+media_folder: images/uploads
+public_folder: /images/uploads
+site_url: https://thomson-saragih.vercel.app
+display_url: https://thomson-saragih.vercel.app
+logo_url: https://thomson-saragih.vercel.app/images/admin-logo.svg
+
+collections:
+  - name: profile
+    label: Profile and Contact
+    files:
+      - name: profile
+        label: Main Profile
+        file: content/profile.json
+        format: json
+        fields:
+          - {label: Full Name, name: name, widget: string}
+          - {label: Professional Title, name: professionalTitle, widget: string}
+          - {label: Specialization, name: specialization, widget: string}
+          - {label: Hero Headline, name: headline, widget: string}
+          - {label: Short Introduction, name: introduction, widget: text}
+          - {label: About Me, name: about, widget: text}
+          - {label: Profile Image, name: profileImage, widget: image, required: false}
+          - {label: Email, name: email, widget: string}
+          - {label: LinkedIn URL, name: linkedin, widget: string}
+          - {label: Location, name: location, widget: string}
+          - {label: CV File Path, name: cvFile, widget: string, default: /Thomson_Saragih_CV.pdf}
+  - name: experience
+    label: Experience
+    files:
+      - name: experience
+        label: Professional Experience
+        file: content/experience.json
+        format: json
+        fields:
+          - label: Experience List
+            name: entries
+            widget: list
+            fields:
+              - {label: Company, name: company, widget: string}
+              - {label: Job Title, name: jobTitle, widget: string}
+              - {label: Period, name: period, widget: string}
+              - {label: Location, name: location, widget: string}
+              - {label: Responsibilities, name: responsibilities, widget: list, field: {label: Responsibility, name: item, widget: string}}
+  - name: skills
+    label: Skills
+    files:
+      - name: skills
+        label: Skill Categories
+        file: content/skills.json
+        format: json
+        fields:
+          - label: Skill Categories
+            name: categories
+            widget: list
+            fields:
+              - {label: Category, name: category, widget: string}
+              - {label: Skills, name: items, widget: list, field: {label: Skill, name: item, widget: string}}
+  - name: projects
+    label: Projects
+    files:
+      - name: projects
+        label: Project Portfolio
+        file: content/projects.json
+        format: json
+        fields:
+          - label: Projects
+            name: projects
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - {label: Project Title, name: title, widget: string}
+              - {label: Category, name: category, widget: string}
+              - {label: Scope and Location, name: scope, widget: string}
+              - {label: Description, name: description, widget: text}
+              - {label: Systems and Tools, name: systems, widget: list, field: {label: System or Tool, name: item, widget: string}}
+              - {label: Featured Image, name: featuredImage, widget: image, required: false}
+              - {label: Project Gallery, name: gallery, widget: list, required: false, field: {label: Image, name: image, widget: image}}

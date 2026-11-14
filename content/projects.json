@@ -1,0 +1,43 @@
+{
+  "projects": [
+    {
+      "title": "Warehouse Systems Implementation",
+      "category": "Warehouse Systems",
+      "scope": "Indonesia (Serang and Dumai) and Malaysia | 9 warehouses",
+      "description": "Supported requirements analysis, functional documentation, SIT, UAT, rollout, issue resolution, and post-go-live stabilization.",
+      "systems": [
+        "TWMS",
+        "PMS",
+        "WSMS"
+      ],
+      "featuredImage": "",
+      "gallery": []
+    },
+    {
+      "title": "Logistics Systems Implementation",
+      "category": "Logistics Systems",
+      "scope": "Kuala Tanjung, Indonesia | 1 operational site",
+      "description": "Supported logistics process implementation, integration validation, operational readiness, and incident investigation.",
+      "systems": [
+        "ITM",
+        "Weighbridge System"
+      ],
+      "featuredImage": "",
+      "gallery": []
+    },
+    {
+      "title": "Change Request & Application Support",
+      "category": "Enterprise Enhancement",
+      "scope": "Warehouse, logistics, and integrated applications",
+      "description": "Evaluated system changes and investigated production incidents across business-critical operations.",
+      "systems": [
+        "60+ Change Requests",
+        "JIRA",
+        "SQL Investigation",
+        "SAP Dependencies"
+      ],
+      "featuredImage": "",
+      "gallery": []
+    }
+  ]
+}

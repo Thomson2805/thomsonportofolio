@@ -1,0 +1,62 @@
+{
+  "categories": [
+    {
+      "category": "Business Analysis",
+      "items": [
+        "Requirements Elicitation",
+        "Gap Analysis",
+        "AS-IS / TO-BE",
+        "Business Rules",
+        "Acceptance Criteria"
+      ]
+    },
+    {
+      "category": "Delivery & Testing",
+      "items": [
+        "Functional Specification",
+        "SIT",
+        "UAT",
+        "Regression Testing",
+        "Defect Management"
+      ]
+    },
+    {
+      "category": "Data & Integration",
+      "items": [
+        "SQL Investigation",
+        "Data Validation",
+        "Reconciliation",
+        "API Testing",
+        "Log Analysis"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "SQL Server",
+        "Azure SQL Database",
+        "JIRA",
+        "Postman",
+        "Microsoft Visio",
+        "Advanced Excel"
+      ]
+    },
+    {
+      "category": "Domain Knowledge",
+      "items": [
+        "Warehouse Operations",
+        "Logistics Operations",
+        "Enterprise Applications"
+      ]
+    },
+    {
+      "category": "Collaboration",
+      "items": [
+        "Stakeholder Management",
+        "Developer / QA Coordination",
+        "User Advisory",
+        "Technical Communication"
+      ]
+    }
+  ]
+}
