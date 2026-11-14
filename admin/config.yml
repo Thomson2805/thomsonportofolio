@@ -2,7 +2,7 @@ backend:
   name: github
   repo: Thomson2805/thomsonportofolio
   branch: main
-  base_url: https://REPLACE-WITH-YOUR-OAUTH-SERVICE.vercel.app
+  base_url: https://thomson-cms-oauth-9wkz.vercel.app
   auth_endpoint: auth
 
 publish_mode: simple
