@@ -1,13 +1,13 @@
 {
-  "specialization": "SQL & System Integration",
-  "name": "Thomson Saragih",
-  "about": "Business Analyst with approximately five years of experience supporting the delivery and enhancement of warehouse, logistics, and enterprise business applications. I connect operational users and technical teams through structured requirements, process analysis, functional documentation, data investigation, testing, and implementation support.",
-  "cvFile": "/Thomson_Saragih_CV.pdf",
+  "name": "Thomson Saragih S.Tr.M",
   "professionalTitle": "IT Business Analyst",
-  "profileImage": "/images/uploads/pas-photo-4x6_thomson.jpg",
+  "specialization": "SQL & System Integration",
   "headline": "Bridging Business Needs with Technology Solutions.",
-  "location": "Medan, North Sumatera, Indonesia",
   "introduction": "I translate operational challenges into practical, testable system solutions across warehouse, logistics, data, and enterprise applications.",
+  "about": "Business Analyst with approximately five years of experience supporting the delivery and enhancement of warehouse, logistics, and enterprise business applications. I connect operational users and technical teams through structured requirements, process analysis, functional documentation, data investigation, testing, and implementation support.",
+  "profileImage": "/images/uploads/pas-photo-4x6_thomson.jpg",
   "email": "thomsonsaragiih@gmail.com",
-  "linkedin": "https://linkedin.com/in/thomson-saragih"
+  "linkedin": "https://linkedin.com/in/thomson-saragih",
+  "location": "Medan, North Sumatera, Indonesia",
+  "cvFile": "/Thomson_Saragih_CV.pdf"
 }
